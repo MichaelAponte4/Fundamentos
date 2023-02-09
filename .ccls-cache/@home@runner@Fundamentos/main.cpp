@@ -23,7 +23,7 @@ int main() {
         cout<<"ingrese el sexo del estudiante\n 0:femenino \n 1:masculino \n";
         cin>>data[i][1];
        if(data[i][1]==0 || data[i][1]==1){
-         {
+         
           cod2:
           cout<<"ingrese su nota de algebra(1 decimal permitido): ";
           cin>>data[i][2];
