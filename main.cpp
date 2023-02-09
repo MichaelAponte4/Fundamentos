@@ -20,7 +20,7 @@ int main() {
       cin>>data[i][0];
       if(data[i][0]>0 && data[i][0]<1000){
       for(int j=1;j<cestudiante+1;j++){
-        if(data[j][0]==data[i][0]){
+        if(==data[i][0]){
           cout<<"este estudiante ya existe\ningrese otro codigo\n";
           goto rep;
         }
