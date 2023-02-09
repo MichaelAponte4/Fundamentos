@@ -23,16 +23,15 @@ int main() {
         cout<<"ingrese el sexo del estudiante\n 0:femenino \n 1:masculino \n";
         cin>>data[i][1];
        if(data[i][1]==0 || data[i][1]==1){
-         
           cod2:
           cout<<"ingrese su nota de algebra(1 decimal permitido): ";
           cin>>data[i][2];
-          if(data[i][2]<0.0 && data[i][2]<5.0){
+          if(data[i][2]>=0 && data[i][2]<=5){
             cod3:
             cout<<"ingrese su nota de fundamentos(1 decimal permitido): ";
             cin>>data[i][3];
   
-            if(data[i][3]<0.0 && data[i][3]<5.0){
+            if(data[i][3]>=0 && data[i][3]<=5){
               cout<<data;
             }else{
               goto cod3;
